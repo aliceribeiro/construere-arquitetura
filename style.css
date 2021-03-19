@@ -1,0 +1,61 @@
+html,
+body {
+  height: 100%;
+}
+
+header {
+  background-image: url(assets/projetos/projetos2.png);
+  background-size: cover;
+  background-position: top center;
+  height: 100%;
+  position: relative;
+  background-repeat: no-repeat;
+}
+
+h2,
+h3 {
+  font-family: 'Berkshire Swash', cursive;
+}
+
+.alinhamento {
+  margin-top: 50px;
+}
+
+.bg-grey {
+  background-color: #F2FDE5;
+  margin-top: 25px;
+  padding-top: 25px;
+}
+
+.teste a {
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.banner {
+  color: #F4F4F4;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  padding: 20px;
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-90%, -200%);
+  transition: 0.3s;
+}
+
+/* .teste2 {
+  height: 500px;
+} */
+
+/* .teste2 img {
+  object-fit: cover;
+  object-position: bottom;
+} */
+
+/* .imagens {
+  overflow: hidden;
+  width: 40%;
+  margin-left: 15px;
+} */
