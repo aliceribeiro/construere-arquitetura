@@ -17,8 +17,13 @@ h3 {
   font-family: 'Berkshire Swash', cursive;
 }
 
+/* .semBorda {
+  border-color: transparent !important; 
+} */
+
 .alinhamento {
   margin-top: 50px;
+  margin-left: 50px;
 }
 
 .bg-grey {
@@ -27,21 +32,16 @@ h3 {
   padding-top: 25px;
 }
 
-.teste a {
-  text-transform: uppercase;
-  font-size: 14px;
-}
-
 .banner {
   color: #F4F4F4;
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 10px;
   padding: 20px;
-  width: 50%;
+  width: 80%;
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-90%, -200%);
+  transform: translate(-50%, -50%);
   transition: 0.3s;
 }
 
@@ -59,3 +59,22 @@ h3 {
   width: 40%;
   margin-left: 15px;
 } */
+
+@media(min-width: 768px) {
+  #painel-sobre {
+    margin-top: 0;
+  }
+}
+
+@media(min-width: 992px) {
+  .banner {
+    left: 0;
+    transform: translate(0, -80%);
+    width: 50%;
+  }
+
+  .banner-wrapper {
+    position: relative;
+    height: 100%;
+  }
+} 
